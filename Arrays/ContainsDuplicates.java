@@ -7,11 +7,10 @@ public class ContainsDuplicates {
         ContainsDuplicates c = new ContainsDuplicates();
         int[] arr = {1, 2, 3, 1};
         System.out.println(c.containsDuplicate(arr));
-
     }
 
     public boolean containsDuplicate(int[] nums) {
-        //Brute Force appraoch
+        //Brute Force approach
         //Time complexity : O(n2)
 //        for (int i = 0; i < nums.length; i++) {
 //            for (int j = i + 1; j < nums.length; j++) {
@@ -22,7 +21,7 @@ public class ContainsDuplicates {
 //        }
 //        return false;
         //Optimized Solution
-        //Time Complexity : O(1)
+        //Time Complexity : O(n)
         HashSet<Integer> set = new HashSet<>();
         for (int num : nums) {
             if (set.contains(num)) {
