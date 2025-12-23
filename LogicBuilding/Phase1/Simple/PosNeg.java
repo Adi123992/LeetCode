@@ -1,6 +1,6 @@
 package LogicBuilding.Phase1.Simple;
 
-public class S1 {
+public class PosNeg {
     public static void main(String[] args) {
         int a = 10;
         if (a > 0) System.out.println("Positive");
