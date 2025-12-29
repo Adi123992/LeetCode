@@ -6,7 +6,7 @@ public class ReverseRightAllginedTriangle {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        //start from highest row number
+        //start from the highest row number
         for (int i = n - 1; i >= 0; i--) {
             //print blank spaces where required in the left sub part
             for (int j = 0; j < n - i - 1; j++) {
