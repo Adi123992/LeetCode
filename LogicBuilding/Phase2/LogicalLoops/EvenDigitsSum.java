@@ -13,6 +13,7 @@ public class EvenDigitsSum {
         }
         for (int i = 1; i <= n; i++) {
             int sum = 0;
+            //this is necessary step beczo we dont do this the i variable will change due to while loop operations and hence will give us wrong answer
             int temp = i;
             while (temp != 0) {
                 int rem = temp % 10;
