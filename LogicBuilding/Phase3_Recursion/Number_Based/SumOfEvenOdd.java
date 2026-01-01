@@ -2,7 +2,7 @@ package LogicBuilding.Phase3_Recursion.Number_Based;
 
 import java.util.Scanner;
 
-public class SumOfEven {
+public class SumOfEvenOdd {
     //optimized solution O(1): n*(n+1)
     //but with recursion TC,SC: O(n)
     //
