@@ -6,16 +6,15 @@ public class RemoveConseDup {
         if (index == s.length()) {
             return res.toString();
         }
-        if (index == 0) {
+        if (index == 0 || s.charAt(index) != s.charAt(index - 1)) {
             res.append(s.charAt(index));
-        } else if (s.charAt(index - 1) != s.charAt(index)) {
-            return removeDup(s, index + 1, res.append(s.charAt(index)));
         }
         return removeDup(s, index + 1, res);
     }
 
     public static void main(String[] args) {
-        String s = "aaabb"; // op should be "ab"
+        String s = "aabbccdeee"; // op should be "abcde"
+        System.out.println(s);
         System.out.println(removeDup(s, 0, new StringBuilder()));
     }
 }
