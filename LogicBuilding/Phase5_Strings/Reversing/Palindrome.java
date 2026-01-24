@@ -11,6 +11,7 @@ public class Palindrome {
         }
         System.out.println(s);
         System.out.println(sb);
+        //returns true or false
         System.out.println(s.equals(sb));
     }
 }
