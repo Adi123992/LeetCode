@@ -4,6 +4,7 @@ public class ReverseEveryWord {
     public static String reverse(String s) {
         if (s.isEmpty()) return s;
         StringBuilder sb = new StringBuilder();
+        //you can use recursion appraoch as well
         for (int i = s.length() - 1; i >= 0; i--) {
             sb.append(s.charAt(i));
         }
