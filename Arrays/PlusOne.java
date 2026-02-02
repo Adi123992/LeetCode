@@ -19,7 +19,7 @@ class Solution {
 
 public class PlusOne {
     public static void main(String[] args) {
-        int[] arr = {1, 9, 9};
+        int[] arr = {9, 9, 9};
         Solution s = new Solution();
         System.out.println(Arrays.toString(s.plusOne(arr)));
     }
