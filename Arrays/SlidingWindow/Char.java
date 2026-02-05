@@ -1,4 +1,4 @@
-package SlidingWindow;
+package Arrays.SlidingWindow;
 
 import java.util.Scanner;
 

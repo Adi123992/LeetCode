@@ -1,4 +1,4 @@
-package SlidingWindow;
+package Arrays.SlidingWindow;
 
 public class MaxSubarraySum {
     public static void main(String[] args) {
